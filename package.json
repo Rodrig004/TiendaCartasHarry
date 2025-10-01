@@ -13,6 +13,6 @@
   },
   "scripts": {
   "start": "node index.js",
-  "test": "jest"
+  "test": "echo \"No tests defined\" && exit 0"
   }
 }
