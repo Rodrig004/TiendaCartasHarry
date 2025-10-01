@@ -1,0 +1,20 @@
+version: '3.8'
+
+services: #Dentro de esto se definen las los contenedores
+  Tienda_cartas_app:
+    build: .  # Construir desde el 
+    ports:
+      - "3000:3000"  # Puerto local:Puerto contenedor
+
+    environment:
+      - NODE_ENV=production             # Estas
+      - PORT=3000                       # son           
+      - client_ID=${CLIENT_ID}          # las
+      - client_secret=${CLIENT_SECRET}  # variables de entorno
+      - SECRET=${SESSION_SECRET}        # para quqe las contraseñas funcionen
+
+    volumes:
+      - .:/app  # Sincronizar archivos locales
+      - /app/node_modules  # No sincronizar node_modules
+      
+    restart: unless-stopped  # Reiniciar si falla

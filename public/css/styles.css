@@ -1,0 +1,223 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap";
+@font-face{
+    font-family: 'Lato';
+    src: url(/Fonts/sports_world/Sports\ World-Regular.ttf);
+}
+@font-face{
+    font-family: 'cuerpo';
+    src: url(/Fonts/garet/Garet-Book.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'cuerpo';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    min-height: 100vh;
+    color: #f5f5f5;
+}
+
+.grid-container>* {
+    /*box-shadow: 10px 6px 37px -13px rgba(51, 51, 51, 0.74);*/
+    padding: 10px;
+    text-align: center;
+    font-weight: 500px;
+}
+
+.img-responsive{
+    display: block;
+    height: 90px;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+body {
+    background-image: url('/img/SparklingStarryNight.jpg');
+    background-size: cover; /* o contain, o valores específicos */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* fija la imagen al hacer scroll */
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.carrito-btn {
+    background: #efb810;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.carrito-count {
+    background: #e63946;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 8px;
+    font-size: 14px;
+}
+
+.remove-item {
+    background: none;
+    border: none;
+    color: #e63946;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 5px;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* From Uiverse.io by dalbrechtmartin */ 
+button {
+  position: relative;
+  background: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  box-shadow: 0px 0px 8px 0px  rgb(169, 123, 38);
+  border-radius: 100px;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #000000;
+  color: #ffffff;
+  box-shadow: 0 0 25px rgba(169, 123, 38, 0.708);
+}
+
+.fil0 {
+  fill: #ffffff;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/ 
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #010a1389;
+  box-shadow: 0px 0px 10px 0px rgb(169, 123, 38);
+  padding: 30px;
+  width: 450px;
+  border-radius: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+::placeholder {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form button {
+  align-self: flex-end;
+}
+
+.flex-column > label {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.inputForm {
+  border: 1.5px solid rgb(169, 123, 38);
+  border-radius: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.input{
+  margin-left: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 85%;
+  height: 100%;
+  color: white;
+  background-color: #010a13a0;
+
+}
+
+.input:focus {
+  outline: none;
+}
+
+.inputForm:focus-within {
+  border: 1.5px solid #2d79f3;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.flex-row > div > label {
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+}
+
+.span {
+  font-size: 14px;
+  margin-left: 5px;
+  color: #2d79f3;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button-submit {
+  margin: 20px 0 10px 0;
+  background-color: #efb810;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.button-submit:hover {
+  background-color: #b88d0d;
+}
+
+.p {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  gap: 10px;
+  border: 1px solid #ededef;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+  border: 1px solid #2d79f3;
+  ;
+}
+/*/////////////////////////////////////////////////////////////////////////*/

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Harry Potter | Inicio</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="grid-container">
+  <header class="header">
+    <div class="logo-container">
+      <img src="/img/Harry.png" alt="logo-nfl" class="img-responsive">
+    </div>
+    <nav>
+      <ul class="nav_links">
+        <li><button onclick="logout()">
+            <span class="carrito-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="Black" class="bi bi-person-dash-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M11 7.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5"/>
+            <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/></svg>
+            </span>
+          </button>
+        </li>
+
+        <li>
+          <!-- boton de la tienda -->
+            <button id="cartButton" class="cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="Black" class="bi bi-handbag-fill" viewBox="0 0 16 16">
+        <path d="M8 1a2 2 0 0 0-2 2v2H5V3a3 3 0 1 1 6 0v2h-1V3a2 2 0 0 0-2-2M5 5H3.36a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.355a2.5 2.5 0 0 0 2.473-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5H11v1.5a.5.5 0 0 1-1 0V5H6v1.5a.5.5 0 0 1-1 0z"/>
+      </svg>
+       
+      <div class="star-1">
+        <svg
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 784.11 815.53"
+          style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+          version="1.1"
+          xml:space="preserve"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs></defs>
+          <g id="Layer_x0020_1">
+            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+            <path
+              d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+              class="fil0"
+            ></path>
+          </g>
+        </svg>
+      </div>
+      <div class="star-2">
+        <svg
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 784.11 815.53"
+          style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+          version="1.1"
+          xml:space="preserve"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs></defs>
+          <g id="Layer_x0020_1">
+            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+            <path
+              d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+              class="fil0"
+            ></path>
+          </g>
+        </svg>
+      </div>
+      <div class="star-3">
+        <svg
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 784.11 815.53"
+          style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+          version="1.1"
+          xml:space="preserve"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs></defs>
+          <g id="Layer_x0020_1">
+            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+            <path
+              d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+              class="fil0"
+            ></path>
+          </g>
+        </svg>
+      </div>
+      <div class="star-4">
+        <svg
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 784.11 815.53"
+          style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+          version="1.1"
+          xml:space="preserve"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs></defs>
+          <g id="Layer_x0020_1">
+            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+            <path
+              d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+              class="fil0"
+            ></path>
+          </g>
+        </svg>
+      </div>
+      <div class="star-5">
+        <svg
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 784.11 815.53"
+          style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+          version="1.1"
+          xml:space="preserve"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs></defs>
+          <g id="Layer_x0020_1">
+            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+            <path
+              d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+              class="fil0"
+            ></path>
+          </g>
+        </svg>
+      </div>
+      <div class="star-6">
+        <svg
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 784.11 815.53"
+          style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+          version="1.1"
+          xml:space="preserve"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs></defs>
+          <g id="Layer_x0020_1">
+            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+            <path
+              d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+              class="fil0"
+            ></path>
+          </g>
+        </svg>
+      </div>
+      <span id="cartCount" class="cart-count">0</span>
+    </button>
+
+        </li>
+      </ul>
+    </nav>
+  </header>
+<!--///////////////////////////////////////////////////////////////////////////////-->
+  <article class="main">
+    <% productos.forEach(prod => { %> 
+      <div class="card">
+        <img class="perfil" src="<%= prod.img %>" alt="<%= prod.nombre %>" width="150">
+        <h4><%= prod.nombre %></h4>
+        <p>Casa: <%= prod.equipo %></p>
+        <p>Precio: $<%= prod.precio %></p>
+        <p>Stock: <span id="stock-<%= prod.id %>"><%= prod.stock %></span></p>
+
+        <label for="cantidad-<%= prod.id %>">Cantidad:</label>
+        <input class="canti" type="number" id="cantidad-<%= prod.id %>" value="1" min="1">
+
+        <button class="Agregar" onclick="agregarAlCarrito(<%= prod.id %>)">Agregar al carrito</button>
+      </div>
+    <% }) %>
+  </article>
+
+  <div id="cartModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Carrito</h2>
+        <span class="close">&times;</span>
+      </div>
+      <div class="modal-body">
+        <div id="carrito"></div>
+        <div class="cart-totals">
+          <p id="cartTotal">Total: $0.00</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button onclick="vaciarCarrito()" class="btn-clear">Vaciar carrito</button>
+        <button onclick="pagar()" class="btn-pay">Pagar</button>
+      </div>
+    </div>
+  </div>
+  <!-- ///////////////////////////////////////////////////////////-->
+
+  <footer class="footer">&#169; Store by Rodrigo Xocua UTCJ IDCM32</footer>
+  
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlToken = urlParams.get('token');
+    
+    if (urlToken) {
+      localStorage.setItem('token', urlToken);
+      // Limpiar la URL para que no se vea el token
+      window.history.replaceState({}, document.title, window.location.pathname);
+    }
+
+    const token = localStorage.getItem('token');
+    if (!token) {
+      window.location.href = '/login'; // si no hay sesión, manda al login
+    }
+      // Obtener elementos del modal
+      const modal = document.getElementById("cartModal");
+      const btn = document.getElementById("cartButton");
+      const span = document.getElementsByClassName("close")[0];
+
+      // Abrir modal al hacer clic en el botón
+      btn.onclick = function() {
+        modal.style.display = "block";
+        cargarCarrito(); // Cargar el carrito cuando se abre el modal
+      }
+
+      // Cerrar modal al hacer clic en la X
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+
+      // Cerrar modal al hacer clic fuera de él
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+
+      // Función para actualizar el contador del carrito
+      function updateCartCount(count) {
+        document.getElementById('cartCount').textContent = count;
+      }
+
+
+    async function cargarCarrito() {
+      const res = await fetch('/api/carrito', {
+        headers: { 'Authorization': `Bearer ${token}` }
+      });
+      const data = await res.json();
+
+      const carritoDiv = document.getElementById('carrito');
+      carritoDiv.innerHTML = '';
+
+      if (!data.cart || data.cart.length === 0) {
+        carritoDiv.innerHTML = '<p>Carrito vacío</p>';
+        return;
+      }
+
+      updateCartCount(data.items || 0);
+
+      data.cart.forEach(item => {
+        const div = document.createElement('div');
+        div.className = 'cart-item';
+        div.innerHTML = `
+          <div class="cart-item-image">
+            <img src="${item.img}" alt="${item.nombre}" width="50">
+          </div>
+          <div class="cart-item-details">
+            <h4>${item.nombre}</h4>
+            <p>${item.equipo}</p>
+            <p>Cantidad: ${item.cantidad}</p>
+            <p>Precio: $${item.precio}</p>
+          </div>
+          <div class="cart-item-subtotal">
+            <p>Subtotal: $${item.subtotal}</p>
+            <button onclick="eliminarDelCarrito(${item.id})" class="btn-remove">
+              Eliminar
+            </button>
+          </div>
+        `;
+        carritoDiv.appendChild(div);
+      });
+
+      cartTotal.textContent = `Total: $${data.subtotal}`;
+    }
+
+    async function agregarAlCarrito(id) {
+      const cantidad = parseInt(document.getElementById(`cantidad-${id}`).value);
+
+      const res = await fetch('/api/carrito/add', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`
+        },
+        body: JSON.stringify({ id, cantidad })
+      });
+
+      const data = await res.json();
+
+      // Mostrar notificación de producto agregado
+      showNotification('Producto agregado al carrito');
+      
+      // Actualizar el carrito y el contador
+      cargarCarrito();
+      
+      // Actualizar el stock mostrado
+      document.getElementById(`stock-${id}`).textContent = data.updatedStock || 
+        (parseInt(document.getElementById(`stock-${id}`).textContent) - cantidad);
+    }
+
+    async function eliminarDelCarrito(id) {
+      const res = await fetch(`/api/carrito/remove/${id}`, {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`
+        }
+      });
+      const data = await res.json();
+
+      showNotification('Producto eliminado del carrito');
+      cargarCarrito();
+    }
+
+    async function vaciarCarrito() {
+      const res = await fetch('/api/carrito/clear', {
+        method: 'DELETE',
+        headers: { 'Authorization': `Bearer ${token}` }
+      });
+      const data = await res.json();
+
+      showNotification('Carrito vaciado');
+      cargarCarrito();
+      
+      // Cerrar el modal después de vaciar
+      setTimeout(() => {
+        modal.style.display = "none";
+      }, 1000);
+    }
+
+    async function pagar() {
+      const { subtotal } = await (await fetch('/api/carrito', {
+        headers: { 'Authorization': `Bearer ${token}` }
+      })).json();
+      
+      const cantidadPagada = prompt(`Total a pagar: $${subtotal}. Ingrese la cantidad:`);
+      if (!cantidadPagada) return;
+
+      const res = await fetch('/api/pago', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`
+        },
+        body: JSON.stringify({ cantidadPagada })
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        showNotification('¡Pago realizado con éxito!');
+        cargarCarrito();
+        
+        // Cerrar el modal después de pagar
+        setTimeout(() => {
+          modal.style.display = "none";
+        }, 1500);
+      } else {
+        alert(data.error || 'Error en el pago');
+      }
+    }
+
+    function showNotification(message) {
+      // Crear elemento de notificación
+      const notification = document.createElement('div');
+      notification.className = 'notification';
+      notification.textContent = message;
+      
+      // Agregar al cuerpo
+      document.body.appendChild(notification);
+      
+      // Mostrar
+      setTimeout(() => {
+        notification.classList.add('show');
+      }, 10);
+      
+      // Ocultar después de 3 segundos
+      setTimeout(() => {
+        notification.classList.remove('show');
+        setTimeout(() => {
+          document.body.removeChild(notification);
+        }, 300);
+      }, 3000);
+    }
+
+    function logout() {
+      localStorage.removeItem('token');
+      window.location.href = '/login';
+    }
+
+    // cargar carrito al iniciar
+    cargarCarrito();
+  </script>
+
+</body>
+</html>
